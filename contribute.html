@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>UDA LEARNING DASHBOARD</title>
+    <link rel="shotcut icon" type="image/x-icon" href="image/title_icon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet"> 
+    <!--FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  </head>
+
+  <body>
+
+    <section class="container-fluid">
+        <div class="row">
+          <!--side menu-->
+          <div class="sidenav side_menu"  id="side-menu">
+            <i class="fas fa-times" id="close-btn" onclick="closemenu()"></i>
+            <div class="logo">
+              <img src="image/logo.png">
+            </div>
+            <div class="item">
+              <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="index.html">Algorithms</a></li>
+                <li><a href="contribute.html">Contribute</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--main content-->
+          <div class="main_content contribute_content">
+            <div class="row top_nav">
+              <div class="col-lg-12 col-md-12 col-sm-12 top_nav_up">
+                <nav class="navbar pl0">
+                <div class="col-lg-11 col-md-10 col-sm-8 pl0">
+                  <i class="fas fa-bars col-sm-2" id="menu-btn" onclick="openmenu()"></i>
+                  <div class="contact_subscribe" id="">
+                    <img src="image/Icon _Search.png">
+                    <input type="email" name="" placeholder="Search">
+                  </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-4 navbar_brand_main">
+                  <a class="navbar-brand" href="#"> 
+                    <i class="fas fa-search-plus" id="srch-btn" onclick="openmenu2()"></i>
+                    <img class="profile" src="image/nav_icon.png" width="30" height="30" alt="">
+                  </a>
+                </div> 
+                </nav>
+              </div>
+            </div>
+            <div class="contact_subscribe_min col-sm-12" id="srch">
+                <img src="image/Icon _Search.png">
+                <input type="email" name="" placeholder="Search">
+            </div>
+            <!--contribute row-->
+            <div class="main_content_box_size">
+              <div class="contribute_box">
+                <div class="contribute_top">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>How to post algorithm</h2>
+                    </div>
+                    <div class="col-md-12 video">
+                      <video controls  poster="image/666-1200x675.jpg">
+                          <source src="image/Mountain Bike Fitness Training - Core Building Exercises - UCHealth.mp4" type="video/mp4">
+                          Your browser does not support HTML5 video.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <div class="contribute_bottom">
+                  <div class="row title_option">
+                    <div class="col-lg-6 col-md-6 title">
+                      <input class="text" type="text" name="" placeholder="Title">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <select class="theme-pink categories_option_op my-1 mr-sm-4">
+                        <option selected>Select Program</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="contribute_text_box">
+                    <textarea class="contribute_text" placeholder="Remember, be nice!" cols="60" rows="5">
+                      
+                    </textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>UDA LEARNING DASHBOARD</title>
+    <link rel="shotcut icon" type="image/x-icon" href="image/title_icon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet"> 
+    <!--FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  </head>
+
+  <body>
+
+    <section class="container-fluid">
+        <div class="row">
+          <!--side menu-->
+          <div class="sidenav side_menu"  id="side-menu">
+            <i class="fas fa-times" id="close-btn" onclick="closemenu()"></i>
+            <div class="logo">
+              <img src="image/logo.png">
+            </div>
+            <div class="item">
+              <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="index.html">Algorithms</a></li>
+                <li><a href="contribute.html">Contribute</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--main content-->
+          <div class="main_content">
+            <div class="row top_nav">
+              <div class="col-lg-12 col-md-12 col-sm-12 top_nav_up">
+                <nav class="navbar pl0">
+                <div class="col-lg-11 col-md-10 col-sm-8 pl0">
+                  <i class="fas fa-bars col-sm-2" id="menu-btn" onclick="openmenu()"></i>
+                  <div class="contact_subscribe" id="">
+                    <img src="image/Icon _Search.png">
+                    <input type="email" name="" placeholder="Search">
+                  </div>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-4 navbar_brand_main">
+                  <a class="navbar-brand" href="#"> 
+                    <i class="fas fa-search-plus" id="srch-btn" onclick="openmenu2()"></i>
+                    <img class="profile" src="image/nav_icon.png" width="30" height="30" alt="">
+                  </a>
+                </div> 
+                </nav>
+              </div>
+            </div>
+            <div class="contact_subscribe_min col-sm-12" id="srch">
+                <img src="image/Icon _Search.png">
+                <input type="email" name="" placeholder="Search">
+            </div>
+            <!--welcome row-->
+            <div class="main_content_box_size welcome_box">
+              <div class="welcome">
+                <h1>Welcome back, Azraf!</h1>
+                <h6>Keep it up. You’re doing great!</h6>
+              </div>
+            <!--Latest Alogrithms row-->
+            <div class="row latest_alogrithms">
+              <div class="col-lg-9 col-md-8 col-sm-8 latest_alogrithms_text">
+                <h1><span>Latest</span> Alogrithms</h1>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-4 see_more">
+                <button class="btn see_more_btn my-1">See More</button>
+              </div>
+            </div>
+            <!--card row-->
+            <div class="row topics">
+              <div class="col-lg-4 col-md-6 single_topics">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_top" src="image/Avatar.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_top">
+                        <p>WHO IS UPLOADED THIS ALGORITHM?</p>
+                        <h5>Fahim Ahmed</h5>
+                      </div>
+                    </div>
+                    <p class="card-text">Latest</p>
+                    <h1 class="card-title">Bubble Shorting</h1>
+                    <div class="row single_topics_bottom">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_bottom" src="image/icon.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_bottom_program">
+                        <p>PROGRAM</p>
+                        <h5>Digital Algorithm</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 single_topics">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_top" src="image/Avatar.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_top">
+                        <p>WHO IS UPLOADED THIS ALGORITHM?</p>
+                        <h5>Fahim Ahmed</h5>
+                      </div>
+                    </div>
+                    <p class="card-text">Latest</p>
+                    <h1 class="card-title">Process and Threads</h1>
+                    <div class="row single_topics_bottom">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_bottom" src="image/icon.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_bottom_program">
+                        <p>PROGRAM</p>
+                        <h5>Digital Algorithm</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 single_topics">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_top" src="image/Avatar.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_top">
+                        <p>WHO IS UPLOADED THIS ALGORITHM?</p>
+                        <h5>Fahim Ahmed</h5>
+                      </div>
+                    </div>
+                    <p class="card-text">Latest</p>
+                    <h1 class="card-title">XHTML Introduction</h1>
+                    <div class="row single_topics_bottom">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_bottom" src="image/icon.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_bottom_program">
+                        <p>PROGRAM</p>
+                        <h5>Digital Algorithm</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 single_topics">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_top" src="image/Avatar.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_top">
+                        <p>WHO IS UPLOADED THIS ALGORITHM?</p>
+                        <h5>Fahim Ahmed</h5>
+                      </div>
+                    </div>
+                    <p class="card-text">Latest</p>
+                    <h1 class="card-title">Bubble Shorting</h1>
+                    <div class="row single_topics_bottom">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_bottom" src="image/icon.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_bottom_program">
+                        <p>PROGRAM</p>
+                        <h5>Digital Algorithm</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 single_topics">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_top" src="image/Avatar.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_top">
+                        <p>WHO IS UPLOADED THIS ALGORITHM?</p>
+                        <h5>Fahim Ahmed</h5>
+                      </div>
+                    </div>
+                    <p class="card-text">Latest</p>
+                    <h1 class="card-title">Bubble Shorting</h1>
+                    <div class="row single_topics_bottom">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_bottom" src="image/icon.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_bottom_program">
+                        <p>PROGRAM</p>
+                        <h5>Digital Algorithm</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 single_topics">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_top" src="image/Avatar.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_top">
+                        <p>WHO IS UPLOADED THIS ALGORITHM?</p>
+                        <h5>Fahim Ahmed</h5>
+                      </div>
+                    </div>
+                    <p class="card-text">Latest</p>
+                    <h1 class="card-title">Bubble Shorting</h1>
+                    <div class="row single_topics_bottom">
+                      <div class="col-md-2 col-sm-2">
+                        <img class="single_topics_img_bottom" src="image/icon.png">
+                      </div>
+                      <div class="col-md-10 col-sm-10 single_topics_bottom_program">
+                        <p>PROGRAM</p>
+                        <h5>Digital Algorithm</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
